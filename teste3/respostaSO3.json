@@ -4,51 +4,17 @@
         "status": "aprovado",
         "prioridade": 0,
         "data": "",
-        "descrição": "Verificar e reparar os cabos da máquina B1 que estão mal encaixados ou desgastados.",
-        "intervenções": "Substituição de cabos danificados e ajuste de cabos mal encaixados.",
+        "descrição": "Reparo nos cabos da máquina B1.",
+        "intervenções": "Verificar e substituir cabos mal encaixados ou desgastados.",
         "pecaTrocada": [],
         "maquina": {
             "id": "B1",
-            "linha": "",
-            "impacto": 2,
-            "manuais": [],
-            "localização": ""
-        },
-        "segurança": "Utilizar luvas térmicas de alta resistência e óculos de proteção.",
-        "ferramentas": [
-            {
-                "sap": {
-                    "sap": "MAT402",
-                    "nome": "Luvas Térmicas de Alta Resistência",
-                    "categoria": "Equipamentos de Segurança"
-                }
-            },
-            {
-                "sap": {
-                    "sap": "MAT403",
-                    "nome": "Óculos de Proteção Antirrespingos",
-                    "categoria": "Equipamentos de Segurança"
-                }
-            }
-        ],
-        "tecnicos": [""]
-    },
-    {
-        "id": 2,
-        "status": "aprovado",
-        "prioridade": 1,
-        "data": "",
-        "descrição": "Verificar a vibração estranha na máquina A1, possivelmente causada por rolamento ou peça solta.",
-        "intervenções": "Inspeção e reparo de rolamentos e fixação de peças soltas.",
-        "pecaTrocada": [],
-        "maquina": {
-            "id": "A1",
             "linha": "",
             "impacto": 1,
             "manuais": [],
             "localização": ""
         },
-        "segurança": "Utilizar capacete de segurança e protetor auricular.",
+        "segurança": "",
         "ferramentas": [
             {
                 "sap": {
@@ -59,31 +25,38 @@
             },
             {
                 "sap": {
-                    "sap": "MAT404",
-                    "nome": "Protetor Auricular Tipo Plug",
+                    "sap": "MAT407",
+                    "nome": "Sapato de Segurança com Biqueira de Aço",
                     "categoria": "Equipamentos de Segurança"
                 }
             }
         ],
-        "tecnicos": [""]
+        "tecnicos": []
     },
     {
-        "id": 3,
+        "id": 2,
         "status": "aprovado",
         "prioridade": 1,
         "data": "",
-        "descrição": "Conferir a correia gasta e o motor sobrecarregado da máquina A2.",
-        "intervenções": "Substituição da correia e avaliação do motor.",
+        "descrição": "Verificação e reparo na vibração da máquina A1.",
+        "intervenções": "Identificar e corrigir problema no rolamento ou peças soltas.",
         "pecaTrocada": [],
         "maquina": {
-            "id": "A2",
+            "id": "A1",
             "linha": "",
             "impacto": 1,
             "manuais": [],
             "localização": ""
         },
-        "segurança": "Utilizar sapato de segurança com biqueira de aço.",
+        "segurança": "",
         "ferramentas": [
+            {
+                "sap": {
+                    "sap": "MAT401",
+                    "nome": "Capacete de Segurança com Aba",
+                    "categoria": "Equipamentos de Segurança"
+                }
+            },
             {
                 "sap": {
                     "sap": "MAT407",
@@ -92,15 +65,49 @@
                 }
             }
         ],
-        "tecnicos": [""]
+        "tecnicos": []
+    },
+    {
+        "id": 3,
+        "status": "aprovado",
+        "prioridade": 2,
+        "data": "",
+        "descrição": "Verificação da correia e motor da máquina A2.",
+        "intervenções": "Conferir correia gasta e sobrecarga no motor.",
+        "pecaTrocada": [],
+        "maquina": {
+            "id": "A2",
+            "linha": "",
+            "impacto": 0,
+            "manuais": [],
+            "localização": ""
+        },
+        "segurança": "",
+        "ferramentas": [
+            {
+                "sap": {
+                    "sap": "MAT401",
+                    "nome": "Capacete de Segurança com Aba",
+                    "categoria": "Equipamentos de Segurança"
+                }
+            },
+            {
+                "sap": {
+                    "sap": "MAT407",
+                    "nome": "Sapato de Segurança com Biqueira de Aço",
+                    "categoria": "Equipamentos de Segurança"
+                }
+            }
+        ],
+        "tecnicos": []
     },
     {
         "id": 4,
         "status": "aprovado",
         "prioridade": 2,
         "data": "",
-        "descrição": "Realizar limpeza nas engrenagens da máquina AB1 para evitar sujeira acumulada.",
-        "intervenções": "Limpeza das engrenagens.",
+        "descrição": "Limpeza das engrenagens da máquina AB1.",
+        "intervenções": "Realizar limpeza para evitar sujeira acumulada.",
         "pecaTrocada": [],
         "maquina": {
             "id": "AB1",
@@ -110,16 +117,31 @@
             "localização": ""
         },
         "segurança": "",
-        "ferramentas": [],
-        "tecnicos": [""]
+        "ferramentas": [
+            {
+                "sap": {
+                    "sap": "MAT401",
+                    "nome": "Capacete de Segurança com Aba",
+                    "categoria": "Equipamentos de Segurança"
+                }
+            },
+            {
+                "sap": {
+                    "sap": "MAT407",
+                    "nome": "Sapato de Segurança com Biqueira de Aço",
+                    "categoria": "Equipamentos de Segurança"
+                }
+            }
+        ],
+        "tecnicos": []
     },
     {
         "id": 5,
         "status": "aprovado",
         "prioridade": 2,
         "data": "",
-        "descrição": "Ajustar os controles de precisão da máquina B2, mas deixar para depois.",
-        "intervenções": "Ajuste nos controles de precisão.",
+        "descrição": "Ajuste nos controles de precisão da máquina B2.",
+        "intervenções": "Realizar ajuste conforme necessário.",
         "pecaTrocada": [],
         "maquina": {
             "id": "B2",
@@ -129,7 +151,22 @@
             "localização": ""
         },
         "segurança": "",
-        "ferramentas": [],
-        "tecnicos": [""]
+        "ferramentas": [
+            {
+                "sap": {
+                    "sap": "MAT401",
+                    "nome": "Capacete de Segurança com Aba",
+                    "categoria": "Equipamentos de Segurança"
+                }
+            },
+            {
+                "sap": {
+                    "sap": "MAT407",
+                    "nome": "Sapato de Segurança com Biqueira de Aço",
+                    "categoria": "Equipamentos de Segurança"
+                }
+            }
+        ],
+        "tecnicos": []
     }
 ]

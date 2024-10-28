@@ -59,7 +59,7 @@ def remove_noise(code):
 def generate_SO(context, modelo, conteudocsv, temperature):
     
     messages = [
-        {"role": "user", "content": f"Considere o contexto de mensagens:\n {context}\n\n, retorne essas tarefas no formato de diversas ordens de serviço, utilize o formato deste json para estruturar as ordens de serviço:\n {modelo}\n\n. Retorne apenas o conteudo do json. Não invente informações, o que você não tiver de informação deverá ser deixado em branco. Considere também as informações relacionadas às ferramentas utilizadas no reparo:\n {conteudocsv}\n\n Não invente códigos para coisas que não estão na lista."}
+        {"role": "user", "content": f"Considere o contexto de mensagens:\n {context}\n\n, retorne essas tarefas no formato de diversas ordens de serviço, utilize o formato deste json para estruturar as ordens de serviço:\n {modelo}\n\n. Retorne apenas o conteudo do json. Não invente informações, o que você não tiver de informação deverá ser deixado em branco. Considere também as informações relacionadas a itens de reparo e EPIs utilizadas no reparo:\n {conteudocsv}\n\n Não invente códigos para coisas que não estão na lista."}
     ]
     generated_answer = request_generation(messages, temperature)
     generated_answer = remove_noise(generated_answer)
@@ -67,13 +67,13 @@ def generate_SO(context, modelo, conteudocsv, temperature):
 
 ###########################################
 
-with open("audiotexto.txt", "r") as file:
+with open("teste3/textoexemplo3.txt", "r") as file:
     text = file.read()
 
 generated_answer, messages = generate(text, 0.5)
 print(generated_answer)
 
-with open("resposta.txt", "w") as file:
+with open("teste3/resposta3.txt", "w") as file:
     file.write(generated_answer)
 
 ###########################################
@@ -88,5 +88,5 @@ with open("osmodelo.txt", "r") as file:
     modelo = file.read()    
 
 generated_answer, messages = generate_SO(messages, modelo, conteudocsv, 0.5)
-with open("respostaSO.json", "w") as file:
+with open("teste3/respostaSO3.json", "w") as file:
     file.write(generated_answer)

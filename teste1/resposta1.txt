@@ -1,0 +1,17 @@
+- **Troca da Polia da Máquina AB1**
+  - Remover a polia antiga da máquina AB1.
+  - Inspecionar a condição do eixo e dos componentes adjacentes.
+  - Instalar a nova polia, garantindo o alinhamento correto.
+  - Verificar e ajustar a tensão da correia, se aplicável.
+  - Testar a máquina após a instalação para garantir o funcionamento adequado.
+
+- **Aperto de Parafusos da Máquina B2**
+  - Realizar uma inspeção visual de todos os parafusos da máquina B2.
+  - Utilizar as ferramentas adequadas para apertar cada parafuso, assegurando que estejam firmes e seguros.
+  - Verificar se há alguma peça solta ou danificada que necessite de atenção adicional.
+
+- **Lubrificação da Máquina A1**
+  - Após concluir as tarefas prioritárias, proceder com a lubrificação da máquina A1.
+  - Identificar todos os pontos de lubrificação necessários.
+  - Aplicar o lubrificante adequado em cada ponto, conforme as especificações do fabricante.
+  - Verificar se a lubrificação foi eficaz e se não há vazamentos.

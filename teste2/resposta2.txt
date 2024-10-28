@@ -1,0 +1,10 @@
+- **Máquina AB1**
+  - Verificar a condição da polia.
+  - Realizar a troca da polia, se necessário.
+
+- **Máquina B2**
+  - Inspecionar os parafusos.
+  - Apertar os parafusos que estiverem soltos.
+
+- **Máquina A1**
+  - Programar a lubrificação para um momento posterior (não é urgente).

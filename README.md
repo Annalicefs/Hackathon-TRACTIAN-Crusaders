@@ -6,7 +6,7 @@ A equipe Crusaders desenvolveu uma solução que utiliza a API da OpenAI para tr
 
 ### Objetivo
 
-O objetivo do projeto é facilitar o processo de criação e padronização das ordens de serviço, utilizando inteligência artificial para melhorar a comunicação entre supervisores e operadores. Com isso, espera-se uma melhora na eficiência operacional e uma redução nos custos de produção.
+O objetivo do projeto é facilitar o processo de criação e padronização das ordens de serviço, utilizando inteligência artificial para melhorar a comunicação entre supervisores e operadores. Com isso, espera-se uma melhora na eficiência operacional e uma redução na quantidade de erros na produção.
 
 ## Arquitetura do Projeto
 ### Componentes Principais

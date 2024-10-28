@@ -3,7 +3,7 @@
 {
     "id": int,
     "status": str,
-    "prioridade": baixa | media | alta
+    "prioridade": 0 | 1 | 2
     "data": datetime,
     "descrição": str,
     "intervenções": str,

@@ -1,20 +1,20 @@
-1. **Máquina B1**  
-   - Verificar e corrigir os cabos mal encaixados ou desgastados.  
-   - Priorizar essa tarefa como máxima prioridade.
+- **B1:**
+  - Verificar e corrigir os cabos que estão mal encaixados ou desgastados.
+  - Priorizar essa tarefa como máxima urgência.
 
-2. **Máquina A1**  
-   - Inspecionar a vibração estranha.  
-   - Verificar rolamentos e peças soltas.  
-   - Resolver o problema identificado.
+- **A1:**
+  - Investigar a causa da vibração estranha.
+  - Verificar rolamentos e peças soltas que possam estar causando a vibração.
+  - Realizar os reparos necessários.
 
-3. **Máquina A2**  
-   - Conferir a condição da correia (verificar desgaste).  
-   - Verificar o motor para identificar sinais de sobrecarga.  
-   - Realizar as correções necessárias em ambas as partes.
+- **A2:**
+  - Inspecionar a correia para verificar o nível de desgaste.
+  - Conferir o motor para identificar sinais de sobrecarga.
+  - Realizar a substituição da correia, se necessário, e ajustar o motor.
 
-4. **Máquina AB1**  
-   - Realizar limpeza nas engrenagens para evitar acúmulo de sujeira.
-
-5. **Máquina B2**  
-   - Ajustar os controles de precisão.  
-   - Esta tarefa pode ser deixada para depois.
+- **AB1:**
+  - Realizar limpeza nas engrenagens para evitar acúmulo de sujeira.
+  
+- **B2:**
+  - Ajustar os controles de precisão.
+  - Esta tarefa pode ser programada para um momento posterior.

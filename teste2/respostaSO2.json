@@ -2,7 +2,7 @@
     {
         "id": 1,
         "status": "pendente",
-        "prioridade": "alta",
+        "prioridade": "2",
         "data": "2023-10-03T00:00:00",
         "descrição": "Substituição da polia da máquina AB1.",
         "intervenções": "Remover a polia antiga e instalar a nova polia.",
@@ -41,7 +41,7 @@
     {
         "id": 2,
         "status": "pendente",
-        "prioridade": "media",
+        "prioridade": "1",
         "data": "2023-10-03T00:00:00",
         "descrição": "Apertar parafusos soltos na máquina B2.",
         "intervenções": "Verificar e apertar todos os parafusos soltos.",
@@ -68,7 +68,7 @@
     {
         "id": 3,
         "status": "pendente",
-        "prioridade": "baixa",
+        "prioridade": "0",
         "data": "2023-10-03T00:00:00",
         "descrição": "Lubrificação da máquina A1.",
         "intervenções": "Aplicar óleo lubrificante nos pontos de lubrificação da máquina.",

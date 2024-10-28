@@ -1,0 +1,95 @@
+[
+    {
+        "id": 1,
+        "status": "pendente",
+        "prioridade": "alta",
+        "data": "2023-10-03T00:00:00",
+        "descrição": "Substituição da polia da máquina AB1.",
+        "intervenções": "Remover a polia antiga e instalar a nova polia.",
+        "pecaTrocada": [
+            {
+                "nome": "Polia de Alumínio",
+                "codigo": "MAT608"
+            }
+        ],
+        "maquina": {
+            "id": 1,
+            "linha": "AB",
+            "impacto": 2,
+            "manuais": [],
+            "localização": "Fábrica - Setor de Montagem"
+        },
+        "segurança": "Utilizar equipamentos de proteção individual (EPI) como luvas e óculos de proteção.",
+        "ferramentas": [
+            {
+                "sap": {
+                    "sap": "MAT901",
+                    "nome": "Chave de Fenda Phillips 6mm",
+                    "categoria": "Ferramentas Manuais"
+                }
+            },
+            {
+                "sap": {
+                    "sap": "MAT902",
+                    "nome": "Alicate de Corte",
+                    "categoria": "Ferramentas Manuais"
+                }
+            }
+        ],
+        "tecnicos": []
+    },
+    {
+        "id": 2,
+        "status": "pendente",
+        "prioridade": "media",
+        "data": "2023-10-03T00:00:00",
+        "descrição": "Apertar parafusos soltos na máquina B2.",
+        "intervenções": "Verificar e apertar todos os parafusos soltos.",
+        "pecaTrocada": [],
+        "maquina": {
+            "id": 2,
+            "linha": "B",
+            "impacto": 1,
+            "manuais": [],
+            "localização": "Fábrica - Setor de Montagem"
+        },
+        "segurança": "Utilizar equipamentos de proteção individual (EPI) como luvas e óculos de proteção.",
+        "ferramentas": [
+            {
+                "sap": {
+                    "sap": "MAT904",
+                    "nome": "Torquímetro 40-200Nm",
+                    "categoria": "Ferramentas Manuais"
+                }
+            }
+        ],
+        "tecnicos": []
+    },
+    {
+        "id": 3,
+        "status": "pendente",
+        "prioridade": "baixa",
+        "data": "2023-10-03T00:00:00",
+        "descrição": "Lubrificação da máquina A1.",
+        "intervenções": "Aplicar óleo lubrificante nos pontos de lubrificação da máquina.",
+        "pecaTrocada": [],
+        "maquina": {
+            "id": 3,
+            "linha": "A",
+            "impacto": 0,
+            "manuais": [],
+            "localização": "Fábrica - Setor de Montagem"
+        },
+        "segurança": "Utilizar equipamentos de proteção individual (EPI) como luvas.",
+        "ferramentas": [
+            {
+                "sap": {
+                    "sap": "MAT302",
+                    "nome": "Óleo Lubrificante 10W30",
+                    "categoria": "Lubrificação e Manutenção"
+                }
+            }
+        ],
+        "tecnicos": []
+    }
+]

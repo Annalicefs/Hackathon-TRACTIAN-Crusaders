@@ -1,0 +1,19 @@
+1. **Lubrificação dos Rolamentos da Máquina da Linha 3**
+   - Utilizar o lubrificante correto (código azul 6624).
+   - Conferir a ficha técnica para garantir a quantidade correta de lubrificante a ser utilizada.
+   - Observar sinais de desgaste e barulho estranho durante o processo.
+
+2. **Verificação do Nível de Óleo da Desencapadora da Linha 12**
+   - Medir e revisar o nível de óleo do equipamento.
+   - Garantir que o nível de óleo esteja adequado para evitar picos de temperatura e possíveis paradas do equipamento.
+
+3. **Substituição do Filtro de Ar do Compressor 5**
+   - Localizar o filtro de ar que foi enviado do almoxarifado (debaixo da bancada).
+   - Realizar a troca do filtro de ar, que já passou do ponto e é considerado crítico.
+
+4. **Inspeção da Bomba de Circulação**
+   - Verificar a bomba de circulação localizada no canto direito.
+   - Observar se a bomba está fazendo barulho e realizar os ajustes ou reparos necessários.
+
+5. **Comunicação com o Supervisor**
+   - Manter contato com o supervisor para qualquer dúvida ou problema que possa surgir durante a execução das tarefas.

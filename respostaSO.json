@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "status": "pendente",
+        "prioridade": "alta",
+        "data": "2023-10-15T08:00:00",
+        "descrição": "Lubrificação dos rolamentos da máquina da linha 3.",
+        "intervenções": "Aplicar lubrificante correto conforme ficha técnica.",
+        "pecaTrocada": [],
+        "maquina": {
+            "id": 1,
+            "linha": "linha 3",
+            "impacto": 2,
+            "manuais": [],
+            "localização": ""
+        },
+        "segurança": "",
+        "ferramentas": [
+            {
+                "sap": {
+                    "sap": "MAT301",
+                    "nome": "Graxa Industrial",
+                    "categoria": "Lubrificação e Manutenção"
+                }
+            }
+        ],
+        "tecnicos": [""]
+    },
+    {
+        "id": 2,
+        "status": "pendente",
+        "prioridade": "alta",
+        "data": "2023-10-15T08:00:00",
+        "descrição": "Verificação do nível de óleo da desencapadora da linha 12.",
+        "intervenções": "Revisar medições e garantir que o nível de óleo está adequado.",
+        "pecaTrocada": [],
+        "maquina": {
+            "id": 2,
+            "linha": "linha 12",
+            "impacto": 2,
+            "manuais": [],
+            "localização": ""
+        },
+        "segurança": "",
+        "ferramentas": [],
+        "tecnicos": [""]
+    },
+    {
+        "id": 3,
+        "status": "pendente",
+        "prioridade": "alta",
+        "data": "2023-10-15T08:00:00",
+        "descrição": "Substituição do filtro de ar do compressor 5.",
+        "intervenções": "Trocar o filtro que já está disponível no local.",
+        "pecaTrocada": [],
+        "maquina": {
+            "id": 3,
+            "linha": "",
+            "impacto": 2,
+            "manuais": [],
+            "localização": "central"
+        },
+        "segurança": "",
+        "ferramentas": [],
+        "tecnicos": [""]
+    },
+    {
+        "id": 4,
+        "status": "pendente",
+        "prioridade": "media",
+        "data": "2023-10-15T08:00:00",
+        "descrição": "Verificação da bomba de circulação ao lado do compressor 5.",
+        "intervenções": "Checar se a bomba está fazendo barulho e se está funcionando corretamente.",
+        "pecaTrocada": [],
+        "maquina": {
+            "id": 4,
+            "linha": "",
+            "impacto": 1,
+            "manuais": [],
+            "localização": "canto direito"
+        },
+        "segurança": "",
+        "ferramentas": [],
+        "tecnicos": [""]
+    }
+]

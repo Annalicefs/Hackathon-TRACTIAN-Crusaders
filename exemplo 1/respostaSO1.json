@@ -1,0 +1,113 @@
+[
+    {
+        "id": 1,
+        "status": "pendente",
+        "prioridade": "alta",
+        "data": "2023-10-03T00:00:00",
+        "descrição": "Troca da polia da máquina AB1",
+        "intervenções": "Substituir a polia danificada por uma nova.",
+        "pecaTrocada": [
+            "Polia de Alumínio"
+        ],
+        "maquina": {
+            "id": 1,
+            "linha": "AB",
+            "impacto": 2,
+            "manuais": [],
+            "localização": "Fábrica - Linha AB"
+        },
+        "segurança": "Utilizar equipamentos de proteção individual (EPIs) adequados.",
+        "ferramentas": [
+            {
+                "sap": {
+                    "sap": "MAT608",
+                    "nome": "Polia de Alumínio",
+                    "categoria": "Componentes Mecânicos"
+                }
+            },
+            {
+                "sap": {
+                    "sap": "MAT901",
+                    "nome": "Chave de Fenda Phillips 6mm",
+                    "categoria": "Ferramentas Manuais"
+                }
+            },
+            {
+                "sap": {
+                    "sap": "MAT904",
+                    "nome": "Torquímetro 40-200Nm",
+                    "categoria": "Ferramentas Manuais"
+                }
+            }
+        ],
+        "tecnicos": []
+    },
+    {
+        "id": 2,
+        "status": "pendente",
+        "prioridade": "media",
+        "data": "2023-10-03T00:00:00",
+        "descrição": "Apertar parafusos da máquina B2",
+        "intervenções": "Verificar e apertar todos os parafusos da máquina B2.",
+        "pecaTrocada": [],
+        "maquina": {
+            "id": 2,
+            "linha": "B",
+            "impacto": 1,
+            "manuais": [],
+            "localização": "Fábrica - Linha B"
+        },
+        "segurança": "Utilizar equipamentos de proteção individual (EPIs) adequados.",
+        "ferramentas": [
+            {
+                "sap": {
+                    "sap": "MAT906",
+                    "nome": "Chave Estrela 12mm",
+                    "categoria": "Ferramentas Manuais"
+                }
+            },
+            {
+                "sap": {
+                    "sap": "MAT904",
+                    "nome": "Torquímetro 40-200Nm",
+                    "categoria": "Ferramentas Manuais"
+                }
+            }
+        ],
+        "tecnicos": []
+    },
+    {
+        "id": 3,
+        "status": "pendente",
+        "prioridade": "baixa",
+        "data": "2023-10-03T00:00:00",
+        "descrição": "Lubrificação da máquina A1",
+        "intervenções": "Aplicar óleo lubrificante em todas as partes móveis da máquina A1.",
+        "pecaTrocada": [],
+        "maquina": {
+            "id": 3,
+            "linha": "A",
+            "impacto": 0,
+            "manuais": [],
+            "localização": "Fábrica - Linha A"
+        },
+        "segurança": "Utilizar equipamentos de proteção individual (EPIs) adequados.",
+        "ferramentas": [
+            {
+                "sap": {
+                    "sap": "MAT302",
+                    "nome": "Óleo Lubrificante 10W30",
+                    "categoria": "Lubrificação e Manutenção"
+                }
+            },
+            {
+                "sap": {
+                    "sap": "EQP301",
+                    "nome": "Bomba de Graxa Pneumática",
+                    "categoria": "Lubrificação e Manutenção"
+                }
+            }
+        ],
+        "tecnicos": []
+    }
+]

@@ -1,0 +1,30 @@
+// OS
+
+{
+    "id": int,
+    "status": str,
+    "prioridade": baixa | media | alta
+    "data": datetime,
+    "descrição": str,
+    "intervenções": str,
+    "pecaTrocada":[
+
+    ],
+    "maquina": 
+        {
+            "id": int,
+            "linha": str,
+            "impacto": 0 | 1 | 2,
+            "manuais": [str],
+            "localização": str
+        },
+    "segurança": str,
+    "ferramentas": [
+        "sap": {   
+            "sap": str,
+            "nome": str,
+            "categoria": str
+        },
+    ],
+    "tecnicos": ["ids"]
+}

@@ -2,11 +2,13 @@
 
 ### Descrição do Projeto
 
-A equipe Crusaders desenvolveu uma solução que utiliza a API da OpenAI para transformar informações imprecisas, fornecidas por supervisores, em ordens de serviço (OS) detalhadas e formatadas. Essa abordagem visa garantir que os funcionários recebam instruções claras e precisas, otimizando o fluxo de trabalho e minimizando erros na execução de tarefas.
+A equipe Crusaders desenvolveu uma solução que utiliza a API da OpenAI para transformar informações imprecisas, fornecidas por supervisores, em ordens de serviço (OS) detalhadas, formatadas e ordenadas por prioridade. Essa abordagem visa garantir que os funcionários recebam instruções claras e precisas, otimizando o fluxo de trabalho e minimizando erros na execução de tarefas.
 
 ### Objetivo
 
 O objetivo do projeto é facilitar o processo de criação e padronização das ordens de serviço, utilizando inteligência artificial para melhorar a comunicação entre supervisores e operadores. Com isso, espera-se uma melhora na eficiência operacional e uma redução na quantidade de erros na produção.
+
+Além disto, também foi criado um sistema de priorização de OSs, ordenados por nível de urgencia, disponibilidade de funcionários no dia e ferramentas disponíveis no almoxarifado.
 
 ## Arquitetura do Projeto
 ### Componentes Principais

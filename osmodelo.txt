@@ -3,7 +3,7 @@
 {
     "id": int,
     "status": str,
-    "prioridade": 0 | 1 | 2
+    "prioridade": 0 | 1 | 2 (0 é baixo, 2 é alto)
     "data": datetime,
     "descrição": str,
     "intervenções": str,
@@ -20,11 +20,7 @@
         },
     "segurança": str,
     "ferramentas": [
-        "sap": {   
-            "sap": str,
-            "nome": str,
-            "categoria": str
-        },
+        "Código SAP": int (substituir "Código SAP" com a respectiva informação da tabela, int é a quantidade)
     ],
     "tecnicos": ["ids"]
 }

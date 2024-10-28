@@ -2,44 +2,39 @@
     {
         "id": 1,
         "status": "aprovado",
-        "prioridade": 0,
+        "prioridade": 2,
         "data": "",
-        "descrição": "Reparo nos cabos da máquina B1.",
-        "intervenções": "Verificar e substituir cabos mal encaixados ou desgastados.",
+        "descrição": "Reparo nos cabos da máquina B1",
+        "intervenções": "Verificação e substituição de cabos mal encaixados ou desgastados",
         "pecaTrocada": [],
         "maquina": {
             "id": "B1",
             "linha": "",
-            "impacto": 1,
+            "impacto": 2,
             "manuais": [],
             "localização": ""
         },
         "segurança": "",
         "ferramentas": [
             {
-                "sap": {
-                    "sap": "MAT401",
-                    "nome": "Capacete de Segurança com Aba",
-                    "categoria": "Equipamentos de Segurança"
-                }
+                "MAT401": 1
             },
             {
-                "sap": {
-                    "sap": "MAT407",
-                    "nome": "Sapato de Segurança com Biqueira de Aço",
-                    "categoria": "Equipamentos de Segurança"
-                }
+                "MAT402": 1
+            },
+            {
+                "MAT403": 1
             }
         ],
-        "tecnicos": []
+        "tecnicos": [""]
     },
     {
         "id": 2,
         "status": "aprovado",
         "prioridade": 1,
         "data": "",
-        "descrição": "Verificação e reparo na vibração da máquina A1.",
-        "intervenções": "Identificar e corrigir problema no rolamento ou peças soltas.",
+        "descrição": "Verificação da vibração estranha na máquina A1",
+        "intervenções": "Inspeção do rolamento e verificação de peças soltas",
         "pecaTrocada": [],
         "maquina": {
             "id": "A1",
@@ -51,63 +46,53 @@
         "segurança": "",
         "ferramentas": [
             {
-                "sap": {
-                    "sap": "MAT401",
-                    "nome": "Capacete de Segurança com Aba",
-                    "categoria": "Equipamentos de Segurança"
-                }
+                "MAT401": 1
             },
             {
-                "sap": {
-                    "sap": "MAT407",
-                    "nome": "Sapato de Segurança com Biqueira de Aço",
-                    "categoria": "Equipamentos de Segurança"
-                }
+                "MAT402": 1
+            },
+            {
+                "MAT403": 1
             }
         ],
-        "tecnicos": []
+        "tecnicos": [""]
     },
     {
         "id": 3,
         "status": "aprovado",
-        "prioridade": 2,
+        "prioridade": 1,
         "data": "",
-        "descrição": "Verificação da correia e motor da máquina A2.",
-        "intervenções": "Conferir correia gasta e sobrecarga no motor.",
+        "descrição": "Verificação da correia e motor da máquina A2",
+        "intervenções": "Substituição da correia gasta e verificação do motor sobrecarregado",
         "pecaTrocada": [],
         "maquina": {
             "id": "A2",
             "linha": "",
-            "impacto": 0,
+            "impacto": 1,
             "manuais": [],
             "localização": ""
         },
         "segurança": "",
         "ferramentas": [
             {
-                "sap": {
-                    "sap": "MAT401",
-                    "nome": "Capacete de Segurança com Aba",
-                    "categoria": "Equipamentos de Segurança"
-                }
+                "MAT401": 1
             },
             {
-                "sap": {
-                    "sap": "MAT407",
-                    "nome": "Sapato de Segurança com Biqueira de Aço",
-                    "categoria": "Equipamentos de Segurança"
-                }
+                "MAT402": 1
+            },
+            {
+                "MAT403": 1
             }
         ],
-        "tecnicos": []
+        "tecnicos": [""]
     },
     {
         "id": 4,
         "status": "aprovado",
-        "prioridade": 2,
+        "prioridade": 0,
         "data": "",
-        "descrição": "Limpeza das engrenagens da máquina AB1.",
-        "intervenções": "Realizar limpeza para evitar sujeira acumulada.",
+        "descrição": "Limpeza das engrenagens da máquina AB1",
+        "intervenções": "Realizar limpeza para evitar sujeira acumulada",
         "pecaTrocada": [],
         "maquina": {
             "id": "AB1",
@@ -119,29 +104,24 @@
         "segurança": "",
         "ferramentas": [
             {
-                "sap": {
-                    "sap": "MAT401",
-                    "nome": "Capacete de Segurança com Aba",
-                    "categoria": "Equipamentos de Segurança"
-                }
+                "MAT401": 1
             },
             {
-                "sap": {
-                    "sap": "MAT407",
-                    "nome": "Sapato de Segurança com Biqueira de Aço",
-                    "categoria": "Equipamentos de Segurança"
-                }
+                "MAT402": 1
+            },
+            {
+                "MAT403": 1
             }
         ],
-        "tecnicos": []
+        "tecnicos": [""]
     },
     {
         "id": 5,
         "status": "aprovado",
-        "prioridade": 2,
+        "prioridade": 0,
         "data": "",
-        "descrição": "Ajuste nos controles de precisão da máquina B2.",
-        "intervenções": "Realizar ajuste conforme necessário.",
+        "descrição": "Ajuste nos controles de precisão da máquina B2",
+        "intervenções": "Realizar ajuste nos controles de precisão",
         "pecaTrocada": [],
         "maquina": {
             "id": "B2",
@@ -153,20 +133,15 @@
         "segurança": "",
         "ferramentas": [
             {
-                "sap": {
-                    "sap": "MAT401",
-                    "nome": "Capacete de Segurança com Aba",
-                    "categoria": "Equipamentos de Segurança"
-                }
+                "MAT401": 1
             },
             {
-                "sap": {
-                    "sap": "MAT407",
-                    "nome": "Sapato de Segurança com Biqueira de Aço",
-                    "categoria": "Equipamentos de Segurança"
-                }
+                "MAT402": 1
+            },
+            {
+                "MAT403": 1
             }
         ],
-        "tecnicos": []
+        "tecnicos": [""]
     }
 ]

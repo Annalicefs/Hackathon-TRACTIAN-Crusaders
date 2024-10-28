@@ -59,7 +59,7 @@ def remove_noise(code):
 def generate_SO(context, modelo, conteudocsv, temperature):
     
     messages = [
-        {"role": "user", "content": f"Considere o contexto de mensagens:\n {context}\n\n, retorne essas tarefas no formato de diversas ordens de serviço, utilize o formato deste json para estruturar as ordens de serviço:\n {modelo}\n\n. Retorne apenas o conteudo do json. Não invente informações, o que você não tiver de informação deverá ser deixado em branco. Considere também as informações relacionadas a itens de reparo e EPIs utilizadas no reparo:\n {conteudocsv}\n\n Não invente códigos para coisas que não estão na lista."}
+        {"role": "user", "content": f"Considere o contexto de mensagens:\n {context}\n\n, retorne essas tarefas no formato de diversas ordens de serviço, utilize o formato deste json para estruturar as ordens de serviço:\n {modelo}\n\n. Retorne apenas o conteudo do json. Não invente informações, o que você não tiver de informação deverá ser deixado em branco. Considere também as informações relacionadas a itens de reparo e EPIs utilizadas no reparo:\n {conteudocsv}\n\n Não invente códigos para coisas que não estão na lista. O status de todas as atividades deve ser 'aprovado'. O id de cada máquina é a sequencia de letras e numeros fornecida nas instruções, ex: A1,B2."}
     ]
     generated_answer = request_generation(messages, temperature)
     generated_answer = remove_noise(generated_answer)

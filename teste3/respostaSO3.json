@@ -1,20 +1,20 @@
 [
     {
         "id": 1,
-        "status": "pendente",
-        "prioridade": 0,
+        "status": "aprovado",
+        "prioridade": "alta",
         "data": "",
-        "descrição": "Reparo na máquina B1 devido a problemas nos cabos.",
-        "intervenções": "Verificar e substituir cabos mal encaixados ou desgastados.",
+        "descrição": "Verificar e corrigir problemas nos cabos da máquina B1.",
+        "intervenções": "Substituição de cabos mal encaixados ou desgastados.",
         "pecaTrocada": [],
         "maquina": {
-            "id": 1,
-            "linha": "B",
+            "id": "B1",
+            "linha": "",
             "impacto": 2,
             "manuais": [],
             "localização": ""
         },
-        "segurança": "Usar luvas e óculos de proteção.",
+        "segurança": "Uso de luvas e óculos de proteção.",
         "ferramentas": [
             {
                 "sap": {
@@ -31,58 +31,58 @@
                 }
             }
         ],
-        "tecnicos": []
+        "tecnicos": [""]
     },
     {
         "id": 2,
-        "status": "pendente",
-        "prioridade": 1,
+        "status": "aprovado",
+        "prioridade": "media",
         "data": "",
-        "descrição": "Verificação de vibração na máquina A1.",
-        "intervenções": "Identificar e reparar rolamento ou peça solta.",
+        "descrição": "Investigar a vibração estranha na máquina A1.",
+        "intervenções": "Verificar rolamento ou peças soltas.",
         "pecaTrocada": [],
         "maquina": {
-            "id": 2,
-            "linha": "A",
+            "id": "A1",
+            "linha": "",
             "impacto": 1,
             "manuais": [],
             "localização": ""
         },
-        "segurança": "Usar capacete e protetor auricular.",
+        "segurança": "Uso de luvas e óculos de proteção.",
         "ferramentas": [
             {
                 "sap": {
-                    "sap": "MAT401",
-                    "nome": "Capacete de Segurança com Aba",
+                    "sap": "MAT402",
+                    "nome": "Luvas Térmicas de Alta Resistência",
                     "categoria": "Equipamentos de Segurança"
                 }
             },
             {
                 "sap": {
-                    "sap": "MAT404",
-                    "nome": "Protetor Auricular Tipo Plug",
+                    "sap": "MAT403",
+                    "nome": "Óculos de Proteção Antirrespingos",
                     "categoria": "Equipamentos de Segurança"
                 }
             }
         ],
-        "tecnicos": []
+        "tecnicos": [""]
     },
     {
         "id": 3,
-        "status": "pendente",
-        "prioridade": 1,
+        "status": "aprovado",
+        "prioridade": "media",
         "data": "",
-        "descrição": "Inspeção na máquina A2 por correia gasta e motor sobrecarregado.",
-        "intervenções": "Conferir a correia de transmissão e verificar o motor.",
+        "descrição": "Verificar a correia gasta e o motor sobrecarregado da máquina A2.",
+        "intervenções": "Substituição da correia de transmissão e verificação do motor.",
         "pecaTrocada": [],
         "maquina": {
-            "id": 3,
-            "linha": "A",
+            "id": "A2",
+            "linha": "",
             "impacto": 1,
             "manuais": [],
             "localização": ""
         },
-        "segurança": "Usar luvas e óculos de proteção.",
+        "segurança": "Uso de luvas e óculos de proteção.",
         "ferramentas": [
             {
                 "sap": {
@@ -99,58 +99,24 @@
                 }
             }
         ],
-        "tecnicos": []
+        "tecnicos": [""]
     },
     {
         "id": 4,
-        "status": "pendente",
-        "prioridade": 2,
+        "status": "aprovado",
+        "prioridade": "baixa",
         "data": "",
-        "descrição": "Limpeza das engrenagens da máquina AB1.",
-        "intervenções": "Realizar limpeza para evitar sujeira acumulada.",
+        "descrição": "Realizar limpeza nas engrenagens da máquina AB1.",
+        "intervenções": "Limpeza para evitar sujeira acumulada.",
         "pecaTrocada": [],
         "maquina": {
-            "id": 4,
-            "linha": "AB",
+            "id": "AB1",
+            "linha": "",
             "impacto": 0,
             "manuais": [],
             "localização": ""
         },
-        "segurança": "Usar luvas e máscara respiratória.",
-        "ferramentas": [
-            {
-                "sap": {
-                    "sap": "MAT402",
-                    "nome": "Luvas Térmicas de Alta Resistência",
-                    "categoria": "Equipamentos de Segurança"
-                }
-            },
-            {
-                "sap": {
-                    "sap": "MAT405",
-                    "nome": "Máscara Respiratória com Filtro P3",
-                    "categoria": "Equipamentos de Segurança"
-                }
-            }
-        ],
-        "tecnicos": []
-    },
-    {
-        "id": 5,
-        "status": "pendente",
-        "prioridade": 2,
-        "data": "",
-        "descrição": "Ajuste nos controles de precisão da máquina B2.",
-        "intervenções": "Realizar ajuste conforme necessário.",
-        "pecaTrocada": [],
-        "maquina": {
-            "id": 5,
-            "linha": "B",
-            "impacto": 0,
-            "manuais": [],
-            "localização": ""
-        },
-        "segurança": "Usar luvas e óculos de proteção.",
+        "segurança": "Uso de luvas e óculos de proteção.",
         "ferramentas": [
             {
                 "sap": {
@@ -167,6 +133,40 @@
                 }
             }
         ],
-        "tecnicos": []
+        "tecnicos": [""]
+    },
+    {
+        "id": 5,
+        "status": "aprovado",
+        "prioridade": "baixa",
+        "data": "",
+        "descrição": "Ajustar os controles de precisão da máquina B2.",
+        "intervenções": "Ajuste nos controles.",
+        "pecaTrocada": [],
+        "maquina": {
+            "id": "B2",
+            "linha": "",
+            "impacto": 0,
+            "manuais": [],
+            "localização": ""
+        },
+        "segurança": "Uso de luvas e óculos de proteção.",
+        "ferramentas": [
+            {
+                "sap": {
+                    "sap": "MAT402",
+                    "nome": "Luvas Térmicas de Alta Resistência",
+                    "categoria": "Equipamentos de Segurança"
+                }
+            },
+            {
+                "sap": {
+                    "sap": "MAT403",
+                    "nome": "Óculos de Proteção Antirrespingos",
+                    "categoria": "Equipamentos de Segurança"
+                }
+            }
+        ],
+        "tecnicos": [""]
     }
 ]

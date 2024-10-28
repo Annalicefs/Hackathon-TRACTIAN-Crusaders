@@ -4,3 +4,13 @@ CREATE TABLE Almoxarifado(
     Equipamento varchar(100),
     Total int
 );
+
+/*
+{
+    "SAP": "string",       
+    "Categoria": "string",  
+    "Equipamento": "string",
+    "Total": "int"        
+}
+
+*/
